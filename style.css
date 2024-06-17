@@ -1,0 +1,69 @@
+.loginForm{
+    text-align: center;
+}
+
+.loginForm .idLayer, .passwordLayer{
+    font-size: larger;
+    border: solid rgb(38, 38, 255);
+    background-color: rgb(9, 62, 186);
+    color: rgb(113, 181, 241);
+    border-radius: 2em;
+    margin-bottom: 1.7em;
+    margin-right: 50%;
+    padding: 1em;
+}
+
+.loginForm button{
+    padding-right: 2em;
+    padding-left: 2em;
+    margin-right: 90%;
+    font-size: 50px;
+    border-radius: 1em;
+    background-color: rgb(9, 62, 186);
+    color: rgb(113, 181, 241);
+}
+
+.loginForm button :hover{
+    background-color: rgb(0, 0, 55);
+}
+.loginForm input{
+    background-color: rgb(95, 95, 228);
+    color: rgb(255, 255, 255);
+    font-size:larger ;
+    width: 60%;
+    height: 40%;
+}
+
+
+.block{
+    display: none;
+}
+
+.memberPage{
+    margin-top: 5em;
+    text-align: center;
+}
+.memberPage img{
+    width: 550px;
+    border-radius: 1.5em;
+}
+
+.memberPage button{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: large;
+    margin-left: 80%;
+    border-radius: 1em;
+    background-color: rgb(9, 62, 186);
+    color: rgb(113, 181, 241);
+}
+
+button:hover{
+    transition: 0.5s;
+    background-color: darkslateblue;
+}
+
+input:hover{
+    transition: 0.5s;
+    background-color: darkslateblue;
+}
